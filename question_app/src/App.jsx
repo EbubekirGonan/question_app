@@ -1,11 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+
+import QuestionContainer from './components/questions/QuestionContainer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+
+    <div>
+      <QuestionContainer />
+
+    </div>
+
       
     </>
   )
