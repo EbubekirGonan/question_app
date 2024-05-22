@@ -1,8 +1,7 @@
-# React + Vite
+Question App project was developed with React. Vite was used for webpack.
+A test consisting of 10 questions is waiting for you. Enjoy it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##############################################################
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Question App projesi React ile geliştirilmiştir. Web pack için Vite kullanılmıştır.
+10 sorudan oluşan bir test sizi beklemektedir. İyi eğlenceler.
