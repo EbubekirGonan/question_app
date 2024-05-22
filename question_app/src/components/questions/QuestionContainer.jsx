@@ -24,13 +24,13 @@ function QuestionContainer (){
 
         const questionTimer = setTimeout(() => {
           setCurrentQuestionIndex((prevIndex) => (prevIndex + 1))
-        }, 5000)
+        }, 30000)
 
         setShowAnswers(false);
         
         const answerTimer = setTimeout(() => {
             setShowAnswers(true)
-        }, 3000)
+        }, 10000)
             
 
         return () => {clearTimeout(questionTimer), clearTimeout(answerTimer)}
